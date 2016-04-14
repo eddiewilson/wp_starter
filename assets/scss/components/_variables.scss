@@ -1,0 +1,30 @@
+// ** Typography ** //
+
+$base-font-family: 'futura-pt', Helvetica, Arial, sans-serif;  // The font family
+$alt-font-family: 'futura-pt', sans-serif;
+$condensed-base-font-family: 'futura-pt-condensed',sans-serif;
+$icon-font: 'cbb-icons', sans-serif;
+
+// Modular Scale
+
+$ms-base: 18px;
+$ms-ratio: $fourth;
+
+// ** Colours ** //
+
+// ** Layouts **//
+
+// Pantone Equiv Colours
+$grey: #1D252D;
+$grey-light: lighten($grey, 81%);
+$grey-mid: lighten($grey, 66%);
+$pop-color: #d22630;
+
+// Mixins
+
+@mixin smooth($dur, $del){
+	-webkit-transition: all $dur ease-in-out $del;
+	-moz-transition: all $dur ease-in-out $del;
+	-o-transition: all $dur ease-in-out $del;
+	transition: all $dur ease-in-out $del;
+}

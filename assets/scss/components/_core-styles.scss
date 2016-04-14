@@ -1,0 +1,94 @@
+/*!
+	Theme Name: Cutbybeam
+	Theme URI: http://cutbybeam.co.uk
+	Description: Cutbybeam WordPress Theme
+	Version: 1.2
+	Author: Lighthouse & Giant
+	Author URI: http://lighthouseandgiant.co.uk
+*/
+
+
+/*================================================  Some default tags  ================================================*/
+html .mceContentBody {
+	font-size: 87.5%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0a1626;
+	line-height: 1.2;
+	width: 600px;
+}
+html{
+	font-size: 1vw;
+}
+body {
+	font-family: $base-font-family;
+	overflow-x: hidden; /* prevents horizontal scroll bars */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* disable webkit tap highlight */
+    height: 100%; /* fixes focus scrolling in Safari (OS X) */
+    color: $grey;
+}
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+a {
+	color:#444;
+	text-decoration:none;
+}
+a:hover {
+	color:#444;
+}
+a:focus {
+	outline:0;
+}
+a:hover,
+a:active {
+	outline:0;
+}
+input[type=text], input[type=email], input[type=tel]{
+
+}
+input:focus {
+	outline:0;
+}
+/*------------------------------------*\
+    Animation
+\*------------------------------------*/
+// ** Make sure the browser can cope ** //
+
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+
+}
+::-webkit-selection {
+
+}
+::-moz-selection {
+
+}
+
+/*================================================  Images and captions  ================================================*/
+img {
+	max-width:100%;
+	height:auto;
+	vertical-align:bottom;
+}
+.wp-caption { text-align: center; background-color: white; padding-top: 4px; margin: 10px 10px 5px 10px; border: none; }
+
+.wp-caption img { margin: 0; padding: 0; border: 0 none; }
+
+.wp-caption a img { margin: 0; padding: 0; border: 0 none; }
+
+.wp-caption-dd { font-size: .86em; line-height: 1.2; padding: 5px 4px; margin: 0; }
+
+/*================================================  Special Theme Classes  ================================================*/
+

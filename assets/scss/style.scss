@@ -1,0 +1,30 @@
+/*!
+	Theme Name: Cutbybeam
+	Theme URI: http://cutbybeam.co.uk
+	Description: Cutbybeam WordPress Theme
+	Version: 1.2
+	Author: Lighthouse & Giant
+	Author URI: http://lighthouseandgiant.co.uk
+*/
+@import "jeet/index";
+@import "modular-scale";
+@import "components/variables";
+@import "components/media-queries";
+
+
+@import "components/reset";
+@import "components/core-styles";
+@import "components/error404";
+@import "components/footer";
+@import "components/form";
+@import "components/layout";
+@import "components/menu";
+@import "components/misc";
+@import "components/shop";
+@import "components/typography"; 
+@import "components/widgets";
+@import "components/wp-core";
+@import "woocommerce/catalogue";
+@import "woocommerce/cart";  
+@import "components/wp-core";
+   
